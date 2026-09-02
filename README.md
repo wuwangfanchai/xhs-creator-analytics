@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-blue.svg)](manifest.json)
 
-一款开源、无服务器的浏览器扩展，用于在小红书创作服务平台中汇总自己的笔记数据。
+一款开源、无服务器的浏览器扩展，用于在小红书创作服务平台中汇总自己的笔记数据，目前支持查询总浏览量、点赞量、收藏量、评论数、转发数和浏览量 Top 10 笔记，支持所有笔记数据的导出。
 
 登录创作服务平台并打开笔记管理页面后，扩展会读取当前账号的全部笔记，在浏览器本地完成统计，并生成简洁的分析面板。
 
@@ -30,7 +30,7 @@
 2. 打开 `edge://extensions/`。
 3. 启用“开发人员模式”。
 4. 点击“加载解压缩的扩展”。
-5. 选择包含 `manifest.json` 的项目目录。
+5. 选择包含 `manifest.json` 的项目目录 `XHS-Creator-Analytics-v1.0.0`。
 
 ### Google Chrome
 
@@ -38,7 +38,7 @@
 2. 打开 `chrome://extensions/`。
 3. 启用“开发者模式”。
 4. 点击“加载已解压的扩展程序”。
-5. 选择包含 `manifest.json` 的项目目录。
+5. 选择包含 `manifest.json` 的项目目录 `XHS-Creator-Analytics-v1.0.0`。
 
 ## 使用方法
 
