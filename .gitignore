@@ -1,0 +1,7 @@
+.DS_Store
+Thumbs.db
+*.crx
+*.pem
+*.log
+creatorall.xml
+*.har
