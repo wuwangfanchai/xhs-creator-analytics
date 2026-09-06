@@ -7,6 +7,8 @@
 
 登录创作服务平台并打开笔记管理页面后，扩展会读取当前账号的全部笔记，在浏览器本地完成统计，并生成简洁的分析面板。
 
+本插件已经上架 Microsoft 扩展市场，可以直接安装使用。
+
 > 本项目为独立开源项目，与小红书及其关联公司无隶属、授权或合作关系。
 
 ## 小红书总浏览量查询
@@ -38,11 +40,9 @@ XHS Creator Analytics 可以读取小红书创作者中心中的已发布笔记�
 
 ### Microsoft Edge
 
-1. 下载并解压最新的 Release。
-2. 打开 `edge://extensions/`。
-3. 启用“开发人员模式”。
-4. 点击“加载解压缩的扩展”。
-5. 选择包含 `manifest.json` 的项目目录 `XHS-Creator-Analytics-v1.0.0`。
+1. 在“扩展”中，点击“获取 Microsoft Edge 扩展”。
+2. 搜索 `XHS Creator Analytics`。
+3. 点击安装即可。
 
 ### Google Chrome
 
