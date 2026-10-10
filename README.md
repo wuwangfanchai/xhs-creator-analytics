@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-blue.svg)](manifest.json)
 
-本项目支持小红书总浏览量、点赞量、收藏量、评论数、转发数一键查询。忽略小红书创作服务平台半年限制，支持所有笔记数据的导出，支持展示个人主页历史浏览量 Top 10 笔记。
+本项目支持小红书 / Rednote 总浏览量、点赞量、收藏量、评论数、转发数一键查询。忽略小红书创作服务平台半年限制，支持所有笔记数据的导出，支持展示个人主页历史浏览量 Top 10 笔记。
 
 登录创作服务平台并打开笔记管理页面后，扩展会读取当前账号的全部笔记，在浏览器本地完成统计，并生成简洁的分析面板。
 
@@ -73,7 +73,7 @@ XLSX 文件包含：笔记 ID、标题、发布时间、笔记类型、浏览量
 - 不连接开发者服务器
 - 不上传、出售或共享笔记数据
 - 不长期保存原始笔记数据
-- 仅申请访问 `creator.xiaohongshu.com`
+- 仅申请访问 `creator.xiaohongshu.com` 和 `creator.rednote.com`
 - 本工具只应用于分析登录用户自己的创作者数据
 
 详细说明见 [PRIVACY.md](PRIVACY.md)。
@@ -102,10 +102,6 @@ XLSX 文件包含：笔记 ID、标题、发布时间、笔记类型、浏览量
 ## 参与贡献
 
 欢迎提交 Issue 和 Pull Request。请勿增加不必要的网站权限、远程执行代码或用户数据上传功能。
-
-## 扩展商店
-
-提交材料和检查步骤见 [STORE_SUBMISSION.md](STORE_SUBMISSION.md)。
 
 ## 许可证
 
