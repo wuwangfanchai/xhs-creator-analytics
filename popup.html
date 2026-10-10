@@ -3,7 +3,11 @@
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><link rel="stylesheet" href="popup.css"><title>创作者分析</title></head>
 <body>
   <h1>XHS Creator Analytics</h1>
-  <p>请先登录并打开“小红书创作服务平台 → 笔记管理”。</p>
+  <div class="platform-row">
+    <span id="platform">当前：小红书</span>
+    <button id="switch-platform" type="button"><span aria-hidden="true">⇄</span> <span id="switch-label">切换为 Rednote</span></button>
+  </div>
+  <p>请先登录并打开所选平台的笔记管理页。<br><a id="note-page" href="https://creator.xiaohongshu.com/new/note-manager" target="_blank" rel="noopener">打开小红书笔记管理</a></p>
   <button id="start">启动分析面板</button>
   <p id="message" role="status"></p>
   <script src="popup.js"></script>
